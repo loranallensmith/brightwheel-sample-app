@@ -1,29 +1,18 @@
-# app [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+# brightwheel-sample
 
-> My superb app
+> A sample application showing how to use [Brightwheel](https://github.com/loranallensmith/brightwheel) components in an [Electron](https://electron.atom.io) project.
 
 
-## Dev
-
-```
-$ npm install
-```
-
-### Run
+## Getting Started
 
 ```
+$ git clone https://github.com/loranallensmith/brightwheel-sample
+
+$ cd brightwheel-sample
+
 $ npm start
 ```
 
-### Build
-
-```
-$ npm run build
-```
-
-Builds the app for macOS, Linux, and Windows, using [electron-packager](https://github.com/electron-userland/electron-packager).
-
-
 ## License
 
-MIT © [<%= name %>](<%= website %>)
+MIT © [Allen Smith](https://github.com/loranallensmith)
