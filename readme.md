@@ -10,6 +10,8 @@ $ git clone https://github.com/loranallensmith/brightwheel-sample
 
 $ cd brightwheel-sample
 
+$ npm install
+
 $ npm start
 ```
 
