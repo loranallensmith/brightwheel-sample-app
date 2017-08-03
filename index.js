@@ -18,7 +18,10 @@ function onClosed() {
 function createMainWindow() {
 	const win = new electron.BrowserWindow({
 		width: 600,
-		height: 400
+		height: 400,
+		// Hide th title bar since we'll create one with Brightwheel
+		titleBarStyle: 'hidden',
+		backgroundColor: '#453854'
 	});
 
 	win.loadURL(`file://${__dirname}/index.html`);
