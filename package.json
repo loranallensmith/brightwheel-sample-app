@@ -1,14 +1,14 @@
 {
-  "name": "app",
-  "productName": "App",
-  "version": "0.0.0",
-  "description": "",
+  "name": "brightwheel-sample",
+  "productName": "Brightwheel Sample Application",
+  "version": "0.1.0",
+  "description": "A sample application showing how to use Brightwheel components in an Electron project",
   "license": "MIT",
-  "repository": "user/repo",
+  "repository": "loranallensmith/brightwheel-sample",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Allen Smith",
+    "email": "loranallensmith@github.com",
+    "url": "https://github.com/loranallensmith"
   },
   "scripts": {
     "test": "xo",
@@ -16,12 +16,14 @@
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
   "dependencies": {
-    "electron-debug": "^1.0.0"
+    "brightwheel": "^0.2.0",
+    "electron-debug": "^1.0.0",
+    "photonkit": "^0.1.2"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
-    "electron-packager": "^8.0.0",
     "electron": "^1.6.6",
+    "electron-packager": "^8.0.0",
     "xo": "^0.18.0"
   },
   "xo": {
