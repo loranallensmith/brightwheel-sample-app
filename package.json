@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "devtron": "^1.1.0",
-    "electron": "^1.6.6",
+    "electron": "^1.8.2-beta5",
     "electron-packager": "^8.0.0",
     "xo": "^0.18.0"
   },
