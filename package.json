@@ -16,7 +16,7 @@
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
   "dependencies": {
-    "brightwheel": "^0.2.0",
+    "brightwheel": "^0.2.1",
     "electron-debug": "^1.0.0",
     "photonkit": "^0.1.2"
   },
